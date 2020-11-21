@@ -1,8 +1,8 @@
 # Gulp執行問題
 ## 補充資料
-    -  使用gulp(安裝、監聽編譯都ok)，若關閉命令提示字元後，下次要再使用，是再打開命令提示字元，然後只要針對專案資料夾再次啟動gulp指令一個動作即可
-    -  [Gulp 專案的 README 更多的說明與操作流程](https://github.com/hexschool/web-layout-training-gulp/blob/master/README.md)
-    -  [這是在講 Gulp 不是飲料是任務自動化工具這件事：GitHub Page篇](https://hsiangfeng.github.io/gulp/20190613/2745753059/)
+-  使用gulp(安裝、監聽編譯都ok)，若關閉命令提示字元後，下次要再使用，是再打開命令提示字元，然後只要針對專案資料夾再次啟動gulp指令一個動作即可
+-  [Gulp 專案的 README 更多的說明與操作流程](https://github.com/hexschool/web-layout-training-gulp/blob/master/README.md)
+-  [這是在講 Gulp 不是飲料是任務自動化工具這件事：GitHub Page篇](https://hsiangfeng.github.io/gulp/20190613/2745753059/)
 
 # 網頁切版直播班 Gulp 範例
 
