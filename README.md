@@ -4,10 +4,23 @@
 -  [Gulp 專案的 README 更多的說明與操作流程](https://github.com/hexschool/web-layout-training-gulp/blob/master/README.md)
 -  [這是在講 Gulp 不是飲料是任務自動化工具這件事：GitHub Page篇](https://hsiangfeng.github.io/gulp/20190613/2745753059/)
 
+### 部署步驟 gh-pages
+
+先新增一個repositary，接著執行以下指令 
+- git init
+- git add .
+- git commit -m 'first commit'
+
+- git remote add origin [GitHub Repositories 這個專案頁面上提供的的repo網址] //加入遠端的分支
+- git branch -M main //修改目前分支的名稱
+- git push -u origin master // 僅限第一次輸入，往後只需要輸入 git push
+
+- gulp build - 執行編譯模式(不會開啟瀏覽器)
+- gulp deploy - 將 dist 資料夾部署至 GitHub Pages
+
 # 網頁切版直播班 Gulp 範例
 
 ## 指令列表
-
 - `gulp` - 執行開發模式(會開啟模擬瀏覽器並監聽相關檔案)
 - `gulp build` - 執行編譯模式(不會開啟瀏覽器)
 - `gulp clean` - 清除 dist 資料夾
